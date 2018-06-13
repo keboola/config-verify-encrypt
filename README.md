@@ -1,6 +1,6 @@
 # config-verify-encrypt
 
-[![Build Status](https://travis-ci.org/keboola/config-verify-encrypt.svg?branch=master)](https://travis-ci.org/keboola/config-verify-encrypt)
+[![Build Status](https://travis-ci.com/keboola/config-verify-encrypt.svg?branch=master)](https://travis-ci.com/keboola/config-verify-encrypt)
 
 Compares the `plain` and `#encrypted` values and throws an exception, if they're different.
 
