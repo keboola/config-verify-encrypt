@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MyComponent\\": "src/"
+            "Keboola\\VerifyEncrypt\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MyComponent\\Tests\\": "tests/phpunit/"
+            "Keboola\\VerifyEncrypt\\Tests\\": "tests/phpunit/"
         }
     },
     "scripts": {
@@ -45,5 +45,7 @@
     "config": {
         "sort-packages": true,
         "optimize-autoloader": true
-    }
+    },
+    "name": "keboola/config-verify-encrypt",
+    "description": "Compares two values, encrypted and unencrypted."
 }

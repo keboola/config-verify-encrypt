@@ -2,11 +2,20 @@
 
 [![Build Status](https://travis-ci.org/keboola/config-verify-encrypt.svg?branch=master)](https://travis-ci.org/keboola/config-verify-encrypt)
 
-> Fill in description
+Compares the `plain` and `#encrypted` values and throws an exception, if they're different.
 
 # Usage
 
-> fill in usage instructions
+## Sample configuration
+
+```json
+{
+    "parameters": {
+        "plain": "value",
+        "#encrypted": "KBC::ProjectSecure::"
+    }
+}
+```
 
 ## Development
 

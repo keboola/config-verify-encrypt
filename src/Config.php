@@ -2,15 +2,19 @@
 
 declare(strict_types=1);
 
-namespace MyComponent;
+namespace Keboola\VerifyEncrypt;
 
 use Keboola\Component\Config\BaseConfig;
 
 class Config extends BaseConfig
 {
-    // @todo implement your custom getters
-    public function getFoo() : string
+    public function getPlain() : string
     {
-        return $this->getValue(['parameters', 'foo']);
+        return $this->getValue(['parameters', 'plain']);
+    }
+
+    public function getEncrypted() : string
+    {
+        return $this->getValue(['parameters', '#encrypted']);
     }
 }
